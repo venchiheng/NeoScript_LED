@@ -1318,6 +1318,8 @@ startRainfall();
         document.querySelector('.displayContainer').addEventListener('mousemove', function(){
             if (event.currentTarget.classList.contains('expanded')) {
                 backBtn.style.display = 'block';
+                backBtn.style.display = 'flex';
+                backBtn.style.flexDirection = 'row';
             }
         });
         document.querySelector('.displayContainer').addEventListener('click', function(){
