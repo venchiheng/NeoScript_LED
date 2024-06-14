@@ -592,6 +592,10 @@ margin-top: 10px;
 color: black;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+#none-filter{
+    /* position: absolute; */
+    font-size: xx-small;
+}
 #none-filter:hover{
     background-color: gray;
     color: white;
@@ -645,6 +649,10 @@ font-size: medium;
 cursor: pointer;
 color: black;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#none-img{
+    /* position: absolute; */
+    font-size: xx-small;
 }
 #none-img:hover{
     background-color: gray;
@@ -718,6 +726,10 @@ font-size: medium;
 color: black;
 cursor: pointer;
 transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#none-bgf{
+    /* position: absolute; */
+    font-size: xx-small;
 }
 #none-bgf:hover{
     background-color: gray;
